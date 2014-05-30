@@ -1,0 +1,4 @@
+bold_home:
+    resource: "@BOLDHomeBundle/Resources/config/routing.yml"
+    prefix:   /
+

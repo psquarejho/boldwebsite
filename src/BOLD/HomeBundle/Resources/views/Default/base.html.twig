@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <title>Brave Operations - Lollipop Division</title>
+  <meta name="keywords" content="eve, eve corporation, mmo, eve online" />
+  <meta name="description" content="Brave Operations - Lollipop Division is the permier small gang PVP divisin within the BRAVE collective" />
+  <link href="{{ asset('bundles/boldhome/styles.css') }}" rel="stylesheet" type="text/css" media="screen" />
+  <link rel="stylesheet" href="{{ asset ('bundles/boldhome/nivo-slider.css') }}" type="text/css" media="screen" />
+  <link rel="icon" href="{{ asset('bundles/boldhome/images/bold.ico') }}" type="image/x-icon">
+  <link rel="shortcut icon" href="{{ asset('bundles/boldhome/images/bold.ico') }}" type="image/x-icon">
+</head>
+
+<body>
+  <div id="bg2"></div>
+
+  <div id="wrapper1">
+    <div id="menu">
+      <ul>
+        <li><a href="{{ path('home') }}" {% if not controller is defined or (controller is defined and controller == "home") %}class="active"{% endif %}>Home</a></li>
+        <li><a href="{{ path('team') }}" {% if controller is defined and controller == "structure" %}class="active"{% endif %}>Team</a></li>
+        <li><a href="{{ path('buyback') }}" {% if controller is defined and controller == "buyback" %}class="active"{% endif %}>Buyback</a></li>
+      </ul>
+
+      <div class="clear"></div>
+    </div>
+
+    <div id="logo">
+      <div id="logoimage">
+        <a href="{{ path('home') }}"><img src="{{ asset('bundles/boldhome/images/bold.png') }}" width="128" height="128" alt="Brave Operations - Lollipop Division" /></a>
+      </div>
+	    <h1><a href="{{ path('home') }}">Brave Operations - Lollipop Division</a></h1>
+	    <a href="{{ path('home') }}"><small>Big things come in small packages</small></a>
+    </div>
+
+    <div id="content_bg_top"></div>
+
+    <div id="content_box">
+      {% block body %}{% endblock %}
+
+      <div id="footer_top">
+        <div id="footer_column1">
+          <h3>Infos</h3>
+
+          <div class="footer_text">
+            <p><a href="{{ path("info_newtobold") }}">Infos for new members</a>
+            </p><br />
+
+            <p><a href="https://wiki.braveineve.com/dojo/guides/authorize_core_setup" target="_blank">How to setup CORE auth and Mumble</a></p><br />
+            
+            <p><a href="http://imgur.com/a/vVkW2#0" target="_blank">How to setup BRAVE jabber</a></p><br />
+
+          </div>
+        </div>
+
+        <div id="footer_column2">
+          <h3>Share with Others</h3>
+
+          <div class="footer_text">
+            <div class="foot_pad">
+              <div class="link reddit">
+                <a href="http://www.reddit.com/r/braveoperations">BO-LD Subreddit</a>
+              </div>
+
+              <div class="link reddit">
+                <a href="http://www.reddit.com/r/bravenewbies">BRAVE Subreddit</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="footer_column3">
+          <h3>Useful Resources</h3>
+
+          <div class="footer_text">
+            <div class="foot_pad">
+              <ul class="ls">
+                <li><a href="http://www.eve-online.com/">EVE Online</a></li>
+                <li><a href="http://wiki.braveineve.com/">BRAVE Wiki</a></li>
+                <li><a href="http://evemaps.dotlan.net/">Dotlan</a></li>
+		<li><a href="http://fleet-up.com/">Fleet Up</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="clear"></div>
+      </div>
+    </div>
+
+    <div id="content_bg_bot"></div>
+
+    <div id="footer_bot">
+      <p>Copyright 2014. <!-- Do not remove -->Designed by <a href=
+      "http://www.myfreecsstemplates.com/" title=
+      "Free CSS Templates">Free CSS Templates</a><br />
+      <!-- end --></p>
+
+      <p><a href="#">Privacy Policy</a> | <a href="#">Terms of
+      Use</a> | <a href="http://validator.w3.org/check/referer"
+      title=
+      "This page validates as XHTML 1.0 Transitional"><abbr title=
+      "eXtensible HyperText Markup Language">XHTML</abbr></a> |
+      <a href="http://jigsaw.w3.org/css-validator/check/referer"
+      title="This page validates as CSS"><abbr title=
+      "Cascading Style Sheets">CSS</abbr></a></p>
+    </div>
+  </div>
+
+  <script type="text/javascript" src= "{{ asset('bundles/boldhome/lib/jquery-1.4.3.min.js') }}">
+  </script> 
+  <script type="text/javascript" src="{{ asset('bundles/boldhome/lib/jquery.nivo.slider.pack.js') }}">
+	  </script> 
+  <script type="text/javascript" src="{{ asset('bundles/boldhome/bold.js') }}">
+	  </script> 
+
+    
+   <script type="text/javascript">
+//<![CDATA[
+          $(window).load(function() {
+          $('#slider').nivoSlider();
+          });
+          //]]>
+          </script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+{% extends 'BOLDHomeBundle:Default:base.html.twig' %}
+
+{% macro person(name, image, title, function) %}
+{% endmacro %}
+
+
+{% block body %}
+<h2>Our Team</h2>
+<div class="personblock">
+  {% include 'BOLDHomeBundle:Structure:person.html.twig' with { 'name': "Asmodean Shepherd", 'image': "asmodean_shepherd.jpg", 'title': "CEO", 'function': "" } %}
+  {% include 'BOLDHomeBundle:Structure:person.html.twig' with { 'name': "Robby Rolfe", 'image': "robby_rolfe.jpg", 'title': "Director", 'function': "Security" } %}
+  {% include 'BOLDHomeBundle:Structure:person.html.twig' with { 'name': "Thalonia", 'image': "thalonia.jpg", 'title': "Director", 'function': "Logistics" } %}
+  {% include 'BOLDHomeBundle:Structure:person.html.twig' with { 'name': "Gavakz Moliko", 'image': "gavakz_moliko.jpg", 'title': "Officer", 'function': "Military / PVP" } %}
+  {% include 'BOLDHomeBundle:Structure:person.html.twig' with { 'name': "Lefty Leftfield", 'image': "lefty_leftfield.jpg", 'title': "Officer", 'function': "Military / PVP" } %}
+  {% include 'BOLDHomeBundle:Structure:person.html.twig' with { 'name': "marauder84", 'image': "marauder84.jpg", 'title': "Officer", 'function': "IT" } %}
+  {% include 'BOLDHomeBundle:Structure:person.html.twig' with { 'name': "Moomincake", 'image': "moomincake.jpg", 'title': "Officer", 'function': "Internal Affairs" } %}
+  {% include 'BOLDHomeBundle:Structure:person.html.twig' with { 'name': "Nick Cornax", 'image': "nick_cornax.jpg", 'title': "Officer", 'function': "Diplomat" } %}
+  {% include 'BOLDHomeBundle:Structure:person.html.twig' with { 'name': "Sunti Chent-Shi", 'image': "sunti_chentshi.jpg", 'title': "Officer", 'function': "Military / PVP" } %}
+  {% include 'BOLDHomeBundle:Structure:person.html.twig' with { 'name': "Tarus Slothenstein", 'image': "tarus_slothenstein.jpg", 'title': "Officer", 'function': "Recruitment, Military / PVP" } %}
+</div>
+
+<h2>Our Divisions</h2>
+<table class="structure">
+  <tr><th>Division</th>
+   <th>Reponsible Officer</th>
+  </tr>
+  <tr>
+    <th>Diplomacy</th>
+    <td>Nick Cornax</td>
+  </tr>
+  <tr>
+    <th>Finance</th>
+    <td>Asmodean Shepherd, Robby Rolfe &amp; Thalonia</td>
+  </tr>
+  <tr>
+    <th>Internal Affairs</th>
+    <td>Moomincake</td>
+  </tr>
+  <tr>
+    <th>IT</th>
+    <td>marauder84</td>
+  </tr>
+  <tr>
+    <th>Logistics</th>
+    <td>Thalonia</td>
+  </tr>
+  <tr>
+    <th>Military</th>
+    <td>Gavakz Moliko &amp; Tarus Slothenstein</td>
+  </tr>
+  <tr>
+    <th>Recruitment</th>
+    <td>Tarus Slothenstein</td>
+  </tr>
+  <tr>
+    <th>Security</th>
+    <td>Robby Rolfe</td>
+  </tr>
+</table>
+
+{% endblock %}

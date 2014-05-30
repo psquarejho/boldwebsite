@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>MyFreeCssTemplates.com free CSS template</title>
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <link href="styles.css" rel="stylesheet" type="text/css" media="screen" />
+		<link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    </head>
+    <body>
+    	
+    	<div id="bg2"></div>
+	    <div id="wrapper1">
+				<div id="menu">
+					<ul>
+						<li><a href="#" class="active">Home</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Gallery</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+					<div class="clear"></div>
+				</div>	
+				<div id="logo">
+					<h1><a href="#">freecss_abstract</a></h1>
+					<a href="#"><small>Small Company Slogan Goes Here</small></a>
+				</div>
+			
+			    <div id="content_bg_top"></div>
+				<div id="content_box">
+					<div id="header">
+					
+					   
+		 <div id="wrapper">
+        <div id="slider-wrapper">        
+            <div id="slider" class="nivoSlider">
+                <img src="images/header.jpg" alt="" />
+                <img src="images/header2.jpg" alt=""/>
+                <img src="images/header3.jpg" alt="" />
+				 <img src="images/header4.jpg" alt="" />
+            </div>        
+        </div>
+	
+<script type="text/javascript" src="lib/jquery-1.4.3.min.js"></script>
+    <script type="text/javascript" src="lib/jquery.nivo.slider.pack.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+	</div>
+					
+					</div>
+					<div id="column_box">
+						<div id="column1">
+							<h2>Your Options</h2>
+							<img src="images/img1.png" alt="" title="" style="float: left; padding-right: 20px;"/>
+							<p><a href="#">Cras hendrerit est nec libero ornare sagittis.</a> 
+Donec interdum dignissim risus et vestibulum. 
+</p>
+						</div>
+						<div id="column2">
+							<h2>Company News</h2>
+							<img src="images/img2.png" alt="" title="" style="float: left; padding-right: 20px;"/>
+							<p><a href="#">Donec interdum dignissim risus et vestibulum.</a>   
+Donec eget nisi id magna tempor laoreet. Etiam egesa </p>
+						</div>
+						<div id="column3">
+							<h2>Have a Question?</h2>
+							<img src="images/img3.png" alt="" title="" style="float: left; padding-right: 20px;"/>
+							<p><a href="#">Cras hendrerit est nec libero ornare sagittis.</a>  
+Donec interdum dignissim risus et vestibulum. </p>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div id="download_box">
+						<div id="download_left"><p><a href="#">Cras hendrerit est nec libero ornare sagittis. Donec interdum dignissim risus et vestibulum.</a><br /><br /> 
+
+A mauris suscipit porta aliquet turpis interdum. Donec eget nisi id magna tempor laoreet. Etiam egestas pulvinar nunc, eu dictum est sagittis vel. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer turpis est, vulputate at cursus a, suscipit quis diam. Cras condimentum metus ut neque lobortis </p>	
+						</div>
+						<div id="download_right"><a href="#">Download</a></div>
+						
+					</div>
+					<div id="footer_top">
+						<div id="footer_column1">
+							<h3>Recent posts</h3>
+							<div class="footer_text">
+								<p><a href="#">Suspendisse rutrum interdum lacinia.</a>
+								Suspendisse tempus aliquet elit sit amet pellentesque. Donec iaculis pulvinar mauris, ac vulputate justo pretium quis. </p>
+								<br />
+								<p><a href="#">Quisque luctus, mi ornare malesuada</a>
+								Suspendisse tempus aliquet elit sit amet pellentesque. Donec iaculis pulvinar </p>
+							</div>
+						</div>
+						<div id="footer_column2">
+							<h3>Share with Others</h3>
+							<div class="footer_text">
+								<div class="foot_pad">
+			                   		<div class="link1"><a href="#">Subscribe to Blog</a></div>
+			                        <div class="link2"><a href="#">Be a fan on Facebook</a></div>
+			                        <div class="link3"><a href="#">RSS Feed</a></div>
+			                        <div class="link4"><a href="#">Follow us on Twitter</a></div>
+			                    </div>
+							</div>
+						</div>
+						<div id="footer_column3">
+							<h3>Useful Resources</h3>
+							<div class="footer_text">
+								<div class="foot_pad">
+			                    	<ul class="ls">
+			                        	<li><a href="#">Lorem ipsum dolor</a></li>
+			                            <li><a href="#">Maecenas in turpis </a></li>
+			                            <li><a href="#">Morbi fringilla libero</a></li>
+			                            <li><a href="#">In venenatis metus vel </a></li>
+			                            <li><a href="#">Donec cursus quam ac </a></li>
+			                        </ul>
+			                    </div>
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div id="content_bg_bot"></div>
+			<div id="footer_bot">
+				<p>Copyright  2014. <!-- Do not remove -->Designed by <a href="http://www.myfreecsstemplates.com/" title="Free CSS Templates">Free CSS Templates</a><br /><!-- end --></p>
+				<p><a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> | <a href="http://validator.w3.org/check/referer" title="This page validates as XHTML 1.0 Transitional"><abbr title="eXtensible HyperText Markup Language">XHTML</abbr></a> | <a href="http://jigsaw.w3.org/css-validator/check/referer" title="This page validates as CSS"><abbr title="Cascading Style Sheets">CSS</abbr></a></p>
+			</div>
+			
+		</div>
+
+    </body>
+</html>

@@ -1,0 +1,7 @@
+parameters:
+#    bold_home.example.class: BOLD\HomeBundle\Example
+
+services:
+#    bold_home.example:
+#        class: %bold_home.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

@@ -1,0 +1,18 @@
+home:
+    path:     /
+    defaults: { _controller: BOLDHomeBundle:Default:index }
+
+buyback:
+    path:    /buyback
+    defaults: { _controller: BOLDHomeBundle:Buyback:index }
+
+team:
+    path:    /team
+    defaults: { _controller: BOLDHomeBundle:Structure:index }
+
+info_newtobold:
+    path:   /info/newtobold
+    defaults:
+      _controller: FrameworkBundle:Template:template
+      template: 'BOLDHomeBundle:Default:newtocorp.html.twig'
+      controller: Home

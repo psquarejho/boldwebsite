@@ -1,0 +1,32 @@
+{% extends 'BOLDHomeBundle:Default:base.html.twig' %}
+
+{% block body %}
+      <div id="header">
+        <div id="wrapper">
+          <div id="slider-wrapper">
+	  </div>
+        </div>
+      </div>
+
+      <div id="column_box">
+        <div class="column">
+          <h2>About us</h2>
+          <img src="{{ asset('bundles/boldhome/images/img1.png') }}" alt="" title="About Us"/>
+	  <p>
+	  Brave Operations - Lollipop Division (BO-LD) is an EVE Online corporation within the BRAVE collective. 
+	  We specialize in small gang PVP content. Currently, we are living in the BRAVE sov null region of Catch.
+          </p>
+        </div>
+
+        <div class="column">
+	  <h2>News</h2><img src="{{ asset('bundles/boldhome/images/img2.png') }}" alt="News" title="" />
+          <p>Redeploying to <a href="http://evemaps.dotlan.net/map/Catch/CZK-ZQ">CZK-ZQ</a></p>
+        </div>
+
+        <div class="column">
+          <h2>Have a Question?</h2><img src="{{ asset('bundles/boldhome/images/img3.png') }}" alt="" title="" />
+          <p>Join us in our public recruitment channel "BOLD recruitment" if you have any questions about BO-LD.</p>
+        </div>
+      </div>
+
+{% endblock %}
